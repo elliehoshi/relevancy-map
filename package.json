@@ -1,0 +1,14 @@
+{
+  "name": "relevancy-map",
+  "main": "d3-relevancy-map.js",
+  "version": "165.0.0",
+  "homepage": "https://observablehq.com/d/ee540d795f1a4a5d",
+  "author": {
+    "name": "Ellie Hoshizaki",
+    "url": "https://observablehq.com/@elliehoshi"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
