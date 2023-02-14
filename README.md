@@ -2,6 +2,8 @@
 
 Using d3.js Zoomable Circle Packing
 
+https://elliehoshi.github.io/relevancy-map/
+
 https://observablehq.com/d/ee540d795f1a4a5d@165
 
 View this notebook in your browser by running a web server in this folder. For

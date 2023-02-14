@@ -1,9 +1,3 @@
-function _1(md){return(
-md`# Ellie Hoshizaki's Design Relevancy Map
-
-Click to zoom in or out.`
-)}
-
 function _chart(pack,data,d3,width,height,color)
 {
   const root = pack(data);
@@ -30,7 +24,7 @@ function _chart(pack,data,d3,width,height,color)
       .on("click", (event, d) => focus !== d && (zoom(event, d), event.stopPropagation()));
 
   const label = svg.append("g")
-      .style("font", "10px sans-serif")
+      .style("font", "24px sans-serif")
       .attr("pointer-events", "none")
       .attr("text-anchor", "middle")
     .selectAll("text")
@@ -119,7 +113,6 @@ export default function define(runtime, observer) {
     ["flare-2.json", {url: new URL("./files/design-relevancy-data.json", import.meta.url), mimeType: "application/json", toString}]
   ]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
-  main.variable(observer()).define(["md"], _1);
   main.variable(observer("chart")).define("chart", ["pack","data","d3","width","height","color"], _chart);
   main.variable(observer("data")).define("data", ["FileAttachment"], _data);
   main.variable(observer("pack")).define("pack", ["d3","width","height"], _pack);
