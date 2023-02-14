@@ -6,11 +6,8 @@ function _chart(pack,data,d3,width,height,color)
 
   const svg = d3.create("svg")
       .attr("viewBox", `-${width / 2} -${height / 2} ${width} ${height}`)
-      .style("display", "block")
-      .style("margin", "0 -14px")
-      .style("height", "100vh")
+      .attr("class", "d3-wrapper")
       .style("background", color(0))
-      .style("cursor", "pointer")
       .on("click", (event) => zoom(event, root));
 
   const node = svg.append("g")

@@ -12,6 +12,8 @@
         "children": [
          {"name": "Social Impact", "value": 9354},
          {"name": "Empathy", "value": 1233},
+         {"name": "Irresponsible objects", "value": 1233},
+         {"name": "Humanitarian objects", "value": 1233},
          {"name": "Harmony", "value": 1233}
         ]
        },
@@ -29,6 +31,9 @@
        {"name": "Curiosity", "value": 19118},
        {"name": "Diversity", "value": 6887},
        {"name": "Growth", "value": 6557},
+       {"name": "Machines", "value": 6557},
+       {"name": "Orgs", "value": 6557},
+       {"name": "The artificial", "value": 6557},
        {"name": "Culture", "value": 22026}
       ]
      },
@@ -45,6 +50,8 @@
          {"name": "Hacktivism", "value": 2649},
          {"name": "#MeToo", "value": 2832},
          {"name": "Corporate Greenwashing", "value": 4896},
+         {"name": "Post-modern futures", "value": 4896},
+         {"name": "Consumer culture", "value": 4896},
          {"name": "Climate Crisis", "value": 4896},
          {"name": "Mortality", "value": 20544}
         ]
@@ -70,12 +77,10 @@
         "name": "Past",
         "children": [
          {
-          "name": "Pre 1800",
+          "name": "Early 20th century",
           "children": [
-           {"name": "Human Life", "value": 4461},
-           {"name": "Gods", "value": 6314},
-           {"name": "Artifice", "value": 6314},
-           {"name": "Nature", "value": 3444}
+           {"name": "Future-making", "value": 4461},
+           {"name": "Design & weight of history", "value": 6314}
           ]
          },
          {
@@ -84,6 +89,7 @@
             {"name": "Human Life", "value": 4461},
             {"name": "Gods", "value": 6314},
             {"name": "Artifice", "value": 6314},
+            {"name": "The future of the artificial", "value": 6314},
             {"name": "Nature", "value": 3444}
           ]
          },
@@ -105,7 +111,7 @@
           ]
          },
          {
-          "name": "Eras",
+          "name": "Eras and events",
           "children": [
            {"name": "Industrial Revolution", "value": 6725},
            {"name": "WWII", "value": 3727},
