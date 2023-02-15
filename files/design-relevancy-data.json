@@ -8,6 +8,15 @@
        {"name": "Alt Present", "value": 2324},
        {"name": "Alt Past", "value": 10993},
        {
+        "name": "Cognitive Bias Codex",
+        "children": [
+         {"name": "Too Much Information", "value": 9354},
+         {"name": "What Should We Remember?", "value": 1233},
+         {"name": "Not Enough Meaning", "value": 1233},
+         {"name": "Need To Act Fast", "value": 1233}
+        ]
+       },
+       {
         "name": "Ethics",
         "children": [
          {"name": "Social Impact", "value": 9354},
@@ -120,7 +129,7 @@
            {"name": "STEM", "value": 4853},
            {"name": "Japanese Internment", "value": 8411},
            {"name": "Counterculture", "value": 4864},
-           {"name": "Rise of capitalism?", "value": 3174}
+           {"name": "Rise of capitalism", "value": 3174}
           ]
          }
         ]
