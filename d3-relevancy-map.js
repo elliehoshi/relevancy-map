@@ -4,7 +4,7 @@ function _chart(pack,data,d3,width,height,color)
   let focus = root;
   let view;
 
-  const svg = d3.create("svg")
+  const svg = d3.select("section").append("svg")
       .attr("viewBox", `-${width / 2} -${height / 2} ${width} ${height}`)
       .attr("class", "d3-wrapper")
       .style("background", color(0))

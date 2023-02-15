@@ -6,7 +6,23 @@ html {
 .d3-wrapper {
     display: block;
     margin: 0 auto;
-    height: 100vh;
+    height: 500px;
+    margin-top: 150px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+circle {
     cursor: pointer;
-    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+
+.manny {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 65px;
+    margin: 0 auto;
+}
+
+section {
+    min-height: 700px;
 }
